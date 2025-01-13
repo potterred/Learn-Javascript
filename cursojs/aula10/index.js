@@ -14,3 +14,10 @@ console.log(a, b); // 2, 2
 
 a =3;
 console.log(a,b) // 3, 2
+
+// Nan - not a number parseInt (inteiro), parseFloat (decimais)
+
+const num1 = 10;
+const num2 = number('Morgana');
+console.log(num1+ num2);
+console.log(typeof num2);
