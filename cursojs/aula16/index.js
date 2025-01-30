@@ -1,4 +1,5 @@
-// 012345678910
-const nome = 'Morgana'
-const alunos = ['Morgana','Maria', 'João'];
+//               0          1       2
+const nomes = ['Morgana','Maria','João'];
 console.log(alunos);
+console.log(alunos[0]);
+console.log(alunos[2]);
