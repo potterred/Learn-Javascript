@@ -1,9 +1,18 @@
-function criarPessoa (nome, sobrenome, idade) {
-    return {
-        nome: nome,
-        sobrenome: sobrenome,
-        idade: idade,
-};
-}
+const pessoal = {
+    nome: 'Morgana',
+    sobrenome: 'Schneider',
+    idade: 25,
 
-const pessoal = criarPessoa('Morgana', 'Schneider', 29);
+    fala () {
+        console.log (`${this.nome}${this.sobrenome} está falando oi...`);
+    },
+incrementaIdade() {
+    this.idade++;
+}
+};
+
+pessoa1.fala();
+pessoal.incrementaIdade();
+pessoa1.fala();
+
+
