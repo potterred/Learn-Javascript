@@ -1,5 +1,10 @@
-const nome = 'Morgana';
-
-function qualquer () {
-    
+function meuEscopo (){
+const form = document.querySelector('.form');
+// form.onsubmit = function (evento){
+// evento.preventDefault();
+// alert(1);
+// console.log('Foi enviado');
+//};
+form.addEventListener('submit');
 }
+meuEscopo();
